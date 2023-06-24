@@ -13,5 +13,3 @@ response = openai.Completion.create(
     presence_penalty=0.0,
     stop=["\n"]
 )
-
-print('hello')
