@@ -1,8 +1,0 @@
-# This script requires that OPENAI_API_KEY is set in .env
-source .env
-# echo "OPENAI_API_KEY="$OPENAI_API_KEY
-python3 -m venv venv
-. venv/bin/activate
-pip3 install -r requirements.txt
-clear
-python3 qanda.py

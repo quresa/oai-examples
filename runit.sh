@@ -7,7 +7,7 @@ python3 -m venv venv
 #pip3 install -r requirements.txt
 pip3 install --upgrade openai
 clear
-choices=('chat_completions.py' 'embeddings.py')
+choices=('chat_completions.py' 'embeddings.py' 'images.py')
 
 while true
 do
